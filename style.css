@@ -1,0 +1,151 @@
+.body{
+    padding:0px;
+    width:100vw;
+    height:100vh;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+#head{
+    display:flex;
+    justify-content: space-around;
+    background-color:black;
+    padding-left: 150px;
+    padding-right:180px;
+}
+#head>a{
+    padding-top:10px;
+    color:white;
+}
+
+
+.section{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 100px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.section>div{
+    font-size:15px;
+    font-weight: 20px;
+    line-height:5px;
+}
+.section>div>p{
+    position:absolute;
+    top:130px;
+    
+}
+.section>div>span{
+    position:absolute;
+    top:160px;
+}
+
+.section1{
+    background-color: white;
+    margin-top:100px;
+}
+.iphone14>h1{
+    background-image: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+    font-weight: 700;
+    font-size: 48px;
+    padding: 20px;
+}
+.section2{
+    background-color: black;
+}
+#probeyond{
+    background-image: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+    font-weight: 700;
+    font-size: 60px;
+    padding: 20px;
+}
+.iphone14{
+    padding-top: 60px;
+    text-align: center;
+    line-height: 15px;
+}
+.iphone14pro{
+    padding-top:60px;
+    text-align:center;
+    line-height:15px;
+}
+.iphone14pro>img{
+    width: 782px;
+    height: 542px;
+    top: 255.5px;
+    left: 99px;
+    
+}
+
+.section3{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+}
+.iphonese{
+    text-align: left;
+    padding-top:250px;
+    line-height: 29px;
+}
+.iphonese>img{
+    padding-left: 180px;
+}
+.btn{
+    padding-left:100px;
+}
+.img{
+    width: 494px;
+    height: 830px;
+    padding-top: 10px;
+    padding-right: 50px;    
+}
+
+
+.section4{
+    background-image: url("assets/section3_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 814px;
+}
+.iphonenew{
+    text-align: left;
+    padding-top:300px;
+    padding-left:70px;
+}
+.iphonenew>h1{
+    color:white;
+    font-size:50px;
+    font-weight:700px;
+    line-height:40px;
+}
+
+
+.iphonetypes1{
+    position: absolute;
+    left: 100px;
+}
+.iphonetypes2{
+    position: absolute; 
+    left: 400px;
+}
+.iphonetypes3{
+    position: absolute; 
+    left: 700px;
+}
+.iphonetypes4{
+    position: absolute; 
+    left: 1000px;
+}
+.iphonetypes1-temp1{
+    position: absolute; 
+    top: 1000px;
+}
